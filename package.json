@@ -3,7 +3,6 @@
     "description": "A Phaser 3 TypeScript template using esbuild.",
     "version": "1.0.0",
     "main": "index.js",
-    "type": "module",
     "scripts": {
         "dev": "node esbuild/dev.server.js -w",
         "build": "node esbuild/build.prod.js"
