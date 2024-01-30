@@ -8,6 +8,7 @@ This template has been updated for:
 
 - [Phaser 3.70.0](https://github.com/phaserjs/phaser)
 - [esbuild 0.19.12](https://github.com/evanw/esbuild)
+- [TypeScript 5.3.3](https://github.com/microsoft/TypeScript)
 
 ![screenshot](screenshot.png)
 
