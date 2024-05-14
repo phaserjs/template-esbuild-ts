@@ -9,8 +9,8 @@ This is a Phaser 3 project template that uses esbuild for bundling. It supports 
 This template has been updated for:
 
 - [Phaser 3.80.1](https://github.com/phaserjs/phaser)
-- [esbuild 0.20.1](https://github.com/evanw/esbuild)
-- [TypeScript 5.3.3](https://github.com/microsoft/TypeScript)
+- [esbuild 0.21.2](https://github.com/evanw/esbuild)
+- [TypeScript 5.4.5](https://github.com/microsoft/TypeScript)
 
 ![screenshot](screenshot.png)
 

@@ -1,7 +1,7 @@
 {
     "name": "template-esbuild-ts",
     "description": "A Phaser 3 TypeScript template using esbuild.",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "main": "index.js",
     "scripts": {
         "dev": "node esbuild/dev.server.mjs -w",
@@ -21,12 +21,12 @@
         "phaser": "^3.80.1"
     },
     "devDependencies": {
-        "@jgoz/esbuild-plugin-livereload": "^2.0.4",
-        "esbuild": "^0.20.1",
+        "@jgoz/esbuild-plugin-livereload": "^2.0.5",
+        "esbuild": "^0.21.2",
         "esbuild-plugin-clean": "^1.0.1",
         "esbuild-plugin-copy": "^2.1.1",
         "esbuild-plugin-inline-image": "^0.0.9",
         "esbuild-serve": "^1.0.1",
-        "typescript": "^5.3.3"
+        "typescript": "^5.4.5"
     }
 }
