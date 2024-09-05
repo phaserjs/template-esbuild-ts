@@ -1,11 +1,13 @@
 {
     "name": "template-esbuild-ts",
     "description": "A Phaser 3 TypeScript template using esbuild.",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "main": "index.js",
     "scripts": {
-        "dev": "node esbuild/dev.server.mjs -w",
-        "build": "node esbuild/build.prod.mjs"
+        "dev": "node log.js dev & node esbuild/dev.server.mjs -w",
+        "build": "node log.js build & node esbuild/build.prod.mjs",
+        "dev-nolog": "node esbuild/dev.server.mjs -w",
+        "build-nolog": "node esbuild/build.prod.mjs"
     },
     "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
     "repository": {
@@ -18,7 +20,7 @@
     "homepage": "https://github.com/phaserjs/template-esbuild-ts#readme",
     "license": "MIT",
     "dependencies": {
-        "phaser": "^3.80.1"
+        "phaser": "^3.85.0"
     },
     "devDependencies": {
         "@jgoz/esbuild-plugin-livereload": "^2.0.5",
