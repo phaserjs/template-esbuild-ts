@@ -20,7 +20,7 @@
     "homepage": "https://github.com/phaserjs/template-esbuild-ts#readme",
     "license": "MIT",
     "dependencies": {
-        "phaser": "^3.88.0"
+        "phaser": "^3.88.2"
     },
     "devDependencies": {
         "@jgoz/esbuild-plugin-livereload": "^2.0.5",
